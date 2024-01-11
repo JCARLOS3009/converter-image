@@ -8,5 +8,5 @@ for arquivo in lista_arquivos:
     imagem = Image.open(f"imagens/{arquivo}").convert("RGB")
 
     # salvar o arquivo com outro formato
-    imagem.save(f'pdf/{arquivo.replace("png", "pdf")}')
+    imagem.save(f'pdf/{arquivo.replace("png", "Webp")}')
 
